@@ -1,0 +1,46 @@
+* {
+  margin: none;
+  padding: none;
+  border: none;
+}
+.container {
+  display: flex;
+}
+
+.drawing-board {
+  border: 1px solid;
+  display: inline-grid;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(250, 1fr);
+}
+
+.options {
+  width: auto;
+  /* border: 1px solid; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  width: 112px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: #7983e0;
+  margin: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #72bfe2;
+}
+
+button:active {
+  background-color: #72bfe2;
+  transform: translateY(4px);
+}
